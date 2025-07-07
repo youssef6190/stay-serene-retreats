@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import Header from "@/components/Header";
@@ -18,7 +17,7 @@ import {
   Wifi, 
   Car, 
   Coffee, 
-  Swimming, 
+  Waves, 
   Dumbbell, 
   Utensils,
   ChevronLeft,
@@ -60,7 +59,7 @@ const HotelDetail = () => {
     ],
     amenities: [
       { name: "Free WiFi", icon: Wifi },
-      { name: "Swimming Pool", icon: Swimming },
+      { name: "Swimming Pool", icon: Waves },
       { name: "Restaurant", icon: Utensils },
       { name: "Free Parking", icon: Car },
       { name: "Fitness Center", icon: Dumbbell },

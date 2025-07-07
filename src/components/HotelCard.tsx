@@ -1,9 +1,8 @@
-
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Star, MapPin, Wifi, Car, Coffee, Swimming } from "lucide-react";
+import { Star, MapPin, Wifi, Car, Coffee, Waves } from "lucide-react";
 
 interface Hotel {
   id: string;
@@ -27,7 +26,7 @@ const HotelCard = ({ hotel }: HotelCardProps) => {
     'Free WiFi': Wifi,
     'Free Parking': Car,
     'Restaurant': Coffee,
-    'Swimming Pool': Swimming,
+    'Swimming Pool': Waves,
   };
 
   return (

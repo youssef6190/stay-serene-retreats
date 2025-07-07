@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -6,7 +5,7 @@ import { Slider } from "@/components/ui/slider";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
-import { Star, Wifi, Car, Coffee, Swimming, Dumbbell, Utensils } from "lucide-react";
+import { Star, Wifi, Car, Coffee, Waves, Dumbbell, Utensils } from "lucide-react";
 
 interface FilterSidebarProps {
   onFiltersChange: (filters: any) => void;
@@ -23,7 +22,7 @@ const FilterSidebar = ({ onFiltersChange, className }: FilterSidebarProps) => {
     { id: "wifi", label: "Free WiFi", icon: Wifi },
     { id: "parking", label: "Free Parking", icon: Car },
     { id: "restaurant", label: "Restaurant", icon: Utensils },
-    { id: "pool", label: "Swimming Pool", icon: Swimming },
+    { id: "pool", label: "Swimming Pool", icon: Waves },
     { id: "gym", label: "Fitness Center", icon: Dumbbell },
     { id: "breakfast", label: "Breakfast Included", icon: Coffee },
   ];
